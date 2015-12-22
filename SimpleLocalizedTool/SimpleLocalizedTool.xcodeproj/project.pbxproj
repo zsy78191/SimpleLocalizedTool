@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4AC9F4A1C27EB9F00A983F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC9F491C27EB9F00A983F3 /* AppDelegate.m */; };
+		D4AC9F4D1C27EB9F00A983F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC9F4C1C27EB9F00A983F3 /* main.m */; };
+		D4AC9F501C27EB9F00A983F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC9F4F1C27EB9F00A983F3 /* ViewController.m */; };
+		D4AC9F521C27EB9F00A983F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AC9F511C27EB9F00A983F3 /* Assets.xcassets */; };
+		D4AC9F551C27EB9F00A983F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AC9F531C27EB9F00A983F3 /* Main.storyboard */; };
+		D4AC9F611C27F49200A983F3 /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC9F601C27F49200A983F3 /* DragView.m */; };
+		D4AC9F641C27FDD300A983F3 /* LocalizedStringHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC9F631C27FDD300A983F3 /* LocalizedStringHandle.m */; };
+		D4AC9F671C28EAD500A983F3 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC9F661C28EAD500A983F3 /* Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4AC9F451C27EB9F00A983F3 /* SimpleLocalizedTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLocalizedTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AC9F481C27EB9F00A983F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4AC9F491C27EB9F00A983F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4AC9F4C1C27EB9F00A983F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4AC9F4E1C27EB9F00A983F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4AC9F4F1C27EB9F00A983F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4AC9F511C27EB9F00A983F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AC9F541C27EB9F00A983F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4AC9F561C27EB9F00A983F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AC9F5F1C27F49200A983F3 /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		D4AC9F601C27F49200A983F3 /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		D4AC9F621C27FDD300A983F3 /* LocalizedStringHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedStringHandle.h; sourceTree = "<group>"; };
+		D4AC9F631C27FDD300A983F3 /* LocalizedStringHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedStringHandle.m; sourceTree = "<group>"; };
+		D4AC9F651C28EAD500A983F3 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		D4AC9F661C28EAD500A983F3 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4AC9F421C27EB9F00A983F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4AC9F3C1C27EB9F00A983F3 = {
+			isa = PBXGroup;
+			children = (
+				D4AC9F471C27EB9F00A983F3 /* SimpleLocalizedTool */,
+				D4AC9F461C27EB9F00A983F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4AC9F461C27EB9F00A983F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC9F451C27EB9F00A983F3 /* SimpleLocalizedTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AC9F471C27EB9F00A983F3 /* SimpleLocalizedTool */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC9F651C28EAD500A983F3 /* Test.h */,
+				D4AC9F661C28EAD500A983F3 /* Test.m */,
+				D4AC9F621C27FDD300A983F3 /* LocalizedStringHandle.h */,
+				D4AC9F631C27FDD300A983F3 /* LocalizedStringHandle.m */,
+				D4AC9F5F1C27F49200A983F3 /* DragView.h */,
+				D4AC9F601C27F49200A983F3 /* DragView.m */,
+				D4AC9F481C27EB9F00A983F3 /* AppDelegate.h */,
+				D4AC9F491C27EB9F00A983F3 /* AppDelegate.m */,
+				D4AC9F4E1C27EB9F00A983F3 /* ViewController.h */,
+				D4AC9F4F1C27EB9F00A983F3 /* ViewController.m */,
+				D4AC9F511C27EB9F00A983F3 /* Assets.xcassets */,
+				D4AC9F531C27EB9F00A983F3 /* Main.storyboard */,
+				D4AC9F561C27EB9F00A983F3 /* Info.plist */,
+				D4AC9F4B1C27EB9F00A983F3 /* Supporting Files */,
+			);
+			path = SimpleLocalizedTool;
+			sourceTree = "<group>";
+		};
+		D4AC9F4B1C27EB9F00A983F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC9F4C1C27EB9F00A983F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4AC9F441C27EB9F00A983F3 /* SimpleLocalizedTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AC9F591C27EB9F00A983F3 /* Build configuration list for PBXNativeTarget "SimpleLocalizedTool" */;
+			buildPhases = (
+				D4AC9F411C27EB9F00A983F3 /* Sources */,
+				D4AC9F421C27EB9F00A983F3 /* Frameworks */,
+				D4AC9F431C27EB9F00A983F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLocalizedTool;
+			productName = SimpleLocalizedTool;
+			productReference = D4AC9F451C27EB9F00A983F3 /* SimpleLocalizedTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4AC9F3D1C27EB9F00A983F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gerinn;
+				TargetAttributes = {
+					D4AC9F441C27EB9F00A983F3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D4AC9F401C27EB9F00A983F3 /* Build configuration list for PBXProject "SimpleLocalizedTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4AC9F3C1C27EB9F00A983F3;
+			productRefGroup = D4AC9F461C27EB9F00A983F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4AC9F441C27EB9F00A983F3 /* SimpleLocalizedTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4AC9F431C27EB9F00A983F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AC9F521C27EB9F00A983F3 /* Assets.xcassets in Resources */,
+				D4AC9F551C27EB9F00A983F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4AC9F411C27EB9F00A983F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AC9F501C27EB9F00A983F3 /* ViewController.m in Sources */,
+				D4AC9F4D1C27EB9F00A983F3 /* main.m in Sources */,
+				D4AC9F641C27FDD300A983F3 /* LocalizedStringHandle.m in Sources */,
+				D4AC9F671C28EAD500A983F3 /* Test.m in Sources */,
+				D4AC9F611C27F49200A983F3 /* DragView.m in Sources */,
+				D4AC9F4A1C27EB9F00A983F3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4AC9F531C27EB9F00A983F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AC9F541C27EB9F00A983F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4AC9F571C27EB9F00A983F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4AC9F581C27EB9F00A983F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4AC9F5A1C27EB9F00A983F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleLocalizedTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerinn.SimpleLocalizedTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4AC9F5B1C27EB9F00A983F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleLocalizedTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerinn.SimpleLocalizedTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4AC9F401C27EB9F00A983F3 /* Build configuration list for PBXProject "SimpleLocalizedTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AC9F571C27EB9F00A983F3 /* Debug */,
+				D4AC9F581C27EB9F00A983F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AC9F591C27EB9F00A983F3 /* Build configuration list for PBXNativeTarget "SimpleLocalizedTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AC9F5A1C27EB9F00A983F3 /* Debug */,
+				D4AC9F5B1C27EB9F00A983F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4AC9F3D1C27EB9F00A983F3 /* Project object */;
+}
