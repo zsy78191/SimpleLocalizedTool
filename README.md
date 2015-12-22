@@ -35,5 +35,5 @@ NSString* e = NSLocalizedStringFromTable( @"最后一条测试书写规范，空
 
 ![](https://raw.githubusercontent.com/zsy78191/SimpleLocalizedTool/master/screen%20shot%201.png)
 
-![](https://raw.githubusercontent.com/zsy78191/SimpleLocalizedTool/master/screen%20shot%201.png)
+![](https://raw.githubusercontent.com/zsy78191/SimpleLocalizedTool/master/screen%20shot%202.png)
 

@@ -1,9 +1,0 @@
-//  SimpleLocalizedTool
-//
-//  Created by Gerinn on 15/12/21.
-//  Copyright © 2015年 gerinn. All rights reserved.
-//  Github : https://github.com/zsy78191/SimpleLocalizedTool 
-
-"这是一个测试" = "这是一个测试";
-"第一条是普通本地化, 翻译写入Localizable.strings文件" = "第一条是普通本地化, 翻译写入Localizable.strings文件";
-"第二条是带注释的语句" = "第二条是带注释的语句";
