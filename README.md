@@ -2,7 +2,7 @@
 
 本地化自动摘取工具。
 
-##使用方法
+## 使用方法
 
 脱取文件进入拖放区域，自动在文件目录中生成Localizable.strings文件和其他对应的本地化文件。
 
@@ -16,7 +16,7 @@ NSString* d = NSLocalizedStringFromTable(@"第三条是带表名的本地化语�
 NSString* e = NSLocalizedStringFromTable( @"最后一条测试书写规范，空格，特殊符号(\"{@#$)等等"  ,   @"OtherFile"  ,   nil);
 ```
 
-##生成的文件
+## 生成的文件
 
 ```
 //Localizable.strings
